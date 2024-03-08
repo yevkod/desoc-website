@@ -17,7 +17,7 @@ export const RevenueView = () => {
                         Generate revenue by crafting <br></br> exclusive content
                     </div>
                     <div className='flex justify-center pt-8'>
-                        <Button text='Buy Decos' />
+                        <Button text='Buy Desoc' />
                     </div>
                 </div>
                 <div className='flex relative mx-auto pt-20'>

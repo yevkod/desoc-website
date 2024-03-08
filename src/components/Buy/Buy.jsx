@@ -23,7 +23,7 @@ export const Buy = () => {
                 </div>
             </div>
             <div className=''>
-                <Button text='Buy Decos now' className='w-full mt-5 text-center flex justify-center' />
+                <Button text='Buy Desoc now' className='w-full mt-5 text-center flex justify-center' />
             </div>
         </div>
     )
