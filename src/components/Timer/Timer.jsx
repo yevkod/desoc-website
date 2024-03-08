@@ -13,7 +13,7 @@ export const MyTimer = ({ expiryTimestamp }) => {
     return (
         <div style={{ textAlign: 'center' }}>
             <div style={{ fontSize: '20px' }}>
-                <span>{days}d{' '}</span><span>{hours}h{' '}</span><span>{minutes}m{' '}</span><span>{seconds}s{' '}</span>
+                <span>{days}<span className='text-gray-500'>d</span>{' '}</span><span>{hours}<span className='text-gray-500'>h</span>{' '}</span><span>{minutes}<span className='text-gray-500'>m</span>{' '}</span><span>{seconds}<span className='text-gray-500'>s</span>{' '}</span>
             </div>
         </div>
     );

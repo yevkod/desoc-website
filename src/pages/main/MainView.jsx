@@ -13,8 +13,7 @@ export const MainView = () => {
     time.setSeconds(time.getSeconds() + 3);
 
     return (
-        <div className='bg-black flex pt-[90px] items-center justify-center pb-[90px]'>
-            <div className='shadow-blue-400 shadow-xl z-50'></div>
+        <div className='bg-black relative flex pt-[90px] items-center justify-center pb-[90px]'>
             <div className='flex flex-col items-center'>
                 <div className='flex w-36 justify-center'>
                     <CircularProgressbar value={percentage} className='flex font-bold flex-wrap' text='$2,521,597.21' styles={buildStyles({
