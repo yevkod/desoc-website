@@ -32,7 +32,66 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-shadow::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  box-shadow: 0 0 350px 200px #5891FF;
+  z-index: -1;
+}
+
+
+.future-shadow::after {
+  content: '';
+  position: absolute;
+  top: 70%;
+  right: 50%;
+  box-shadow: 0 0 350px 200px #5891FF;
+  z-index: -1;
+}
+
+
+.creators-shadow::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  box-shadow: 0 0 350px 200px #5891FF;
+  z-index: -1;
+}
+
+
+.stage-shadow::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  box-shadow: 0 0 350px 200px #5891FF;
+  z-index: -1;
+}
+
+.supply-shadow::after {
+  content: '';
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  box-shadow: 0 0 350px 200px #5891FF;
+  z-index: -1;
+}
+
+
+.revenue-shadow::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 50%;
+  box-shadow: 0 0 350px 200px #5891FF;
+  z-index: -1;
 }

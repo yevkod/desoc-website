@@ -3,7 +3,7 @@ import { creatorsArray } from './CreatorsArray'
 
 export const CreatorsView = () => {
     return (
-        <div className='bg-black pt-[10px] pb-[90px]'>
+        <div className='bg-black creators-shadow relative z-20 pt-[10px] pb-[90px]'>
             <div className='text-white font-bold [font-size:_clamp(2em,4vw,98px)]'>Loved by creators</div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-[60rem] mx-auto gap-5 pt-12'>
                 {creatorsArray.map((item) => (

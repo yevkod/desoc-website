@@ -7,7 +7,7 @@ export const StageView = () => {
     return (
         <div className='bg-black pt-[90px] px-5'>
             <div className='grid grid-cols-1 lg:grid-cols-2 max-w-[90rem] mx-auto'>
-                <div className='text-white  [font-size:_clamp(2em,4vw,98px)] font-bold'>
+                <div className='text-white relative z-20 stage-shadow [font-size:_clamp(2em,4vw,98px)] font-bold'>
                     2024
                 </div>
                 <div className="text-white">

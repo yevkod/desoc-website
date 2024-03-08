@@ -13,13 +13,13 @@ export const MainView = () => {
     time.setSeconds(time.getSeconds() + 3);
 
     return (
-        <div className='bg-black relative flex pt-[90px] items-center justify-center pb-[90px]'>
+        <div className='bg-black relative z-20 flex pt-[90px] main-shadow items-center justify-center pb-[90px]'>
             <div className='flex flex-col items-center'>
                 <div className='flex w-36 justify-center'>
                     <CircularProgressbar value={percentage} className='flex font-bold flex-wrap' text='$2,521,597.21' styles={buildStyles({
                         textSize: '10px',
                         textColor: 'white'
-                    })} />;
+                    })} />
                 </div>
                 <div className='text-white items-center pt-5'>
                     <MyTimer expiryTimestamp={time} />

@@ -4,7 +4,7 @@ import supply from '../../assets/imgs/supply-img.png';
 export const SupplyView = () => {
     return (
         <div className='bg-black pt-[90] pb-[90px] p-5'>
-            <div className='max-w-[90rem] mx-auto'>
+            <div className='max-w-[90rem] relative supply-shadow z-20 mx-auto'>
                 <div className=''>
                     <div className='border-2 border-gray-400 text-white max-w-[145px] p-3 mx-auto rounded-full bg-gray-700'>
                         Token supply

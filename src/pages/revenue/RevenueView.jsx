@@ -10,8 +10,8 @@ import photo_6 from '../../assets/imgs/revenue6.png';
 
 export const RevenueView = () => {
     return (
-        <div className='bg-black relative pt-[90px] pb-[90px]'>
-            <div className='flex flex-col mx-auto max-w-[90rem]'>
+        <div className='bg-black relative revenue-shadow pt-[90px] pb-[90px]'>
+            <div className='flex z-20  flex-col mx-auto max-w-[90rem]'>
                 <div>
                     <div className='text-white [font-size:_clamp(2em,4vw,50px)] leading-[55px] font-bold'>
                         Generate revenue by crafting <br></br> exclusive content

@@ -9,7 +9,7 @@ import { RevenueView } from './pages/revenue/RevenueView';
 import { SupplyView } from './pages/supply/SupplyView';
 import { StageView } from './pages/stage/StageView';
 import { CreatorsView } from './pages/creators/CreatorsView';
-import { FutureArray } from './pages/Future/FutureArray';
+import { Future } from './pages/Future/Future';
 import { FooterView } from './pages/Footer/FooterView';
 
 export const App = () => {
@@ -24,7 +24,7 @@ export const App = () => {
       <SupplyView />
       <StageView />
       <CreatorsView />
-      <FutureArray />
+      <Future />
       <FooterView />
     </div>
   );

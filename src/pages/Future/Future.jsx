@@ -1,9 +1,9 @@
 import React from 'react'
 import { Button } from '../../components/Button/Button'
 
-export const FutureArray = () => {
+export const Future = () => {
     return (
-        <div className='bg-black pt-[90px] pb-[90px]'>
+        <div className='bg-black z-20 relative future-shadow pt-[90px] pb-[90px]'>
             <div className='e text-white font-bold [font-size:_clamp(2em,4vw,98px)] leading-[95px]'>
                 Made for the future.<br></br>
                 Available today.
