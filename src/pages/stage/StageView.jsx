@@ -5,12 +5,12 @@ import { RoadmapAccordion } from "./StageAccordion";
 
 export const StageView = () => {
     return (
-        <div className='bg-black pt-[90px] px-5'>
+        <div className='bg-black pt-[40px] lg:pt-[90px] px-5'>
             <div className='grid grid-cols-1 lg:grid-cols-2 max-w-[90rem] mx-auto'>
                 <div className='text-white relative z-20 stage-shadow [font-size:_clamp(5em,4vw,250px)] font-bold'>
                     2024
                 </div>
-                <div className="text-white">
+                <div className="text-white pt-10 lg:pt-0">
                     <AccordionRoot
                         type="single"
                         collapsible
