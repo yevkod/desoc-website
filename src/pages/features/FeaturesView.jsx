@@ -11,7 +11,7 @@ import { Button } from '../../components/Button/Button';
 
 export const FeaturesView = () => {
     return (
-        <div className='bg-black pt-[40px] pb-[90px] p-5 relative features-shadow z-50'>
+        <div className='bg-black pt-[40px] lg:pb-[90px] p-5 relative features-shadow z-50'>
             <div className='flex flex-col justify-center '>
                 <div className='[font-size:_clamp(2em,4vw,50px)] font-bold text-white'>Unlock cool features</div>
                 <div className='flex justify-center pt-8'>
@@ -19,7 +19,7 @@ export const FeaturesView = () => {
                 </div>
             </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 md:grid-rows-2 pt-12 gap-5 z-50 mx-auto max-w-[70rem]'>
-                <div className='flex flex-col md:flex-row border-2 hover:scale-105 transition-all bg-gradient-to-b from-[#1A2025] z-50 to-black col-span-2 justify-between border-gray-600 rounded-2xl p-5'>
+                <div className='flex flex-col md:flex-row border-2 hover:scale-105 transition-all bg-gradient-to-b from-[#1A2025] z-50 to-black md:col-span-2 justify-between border-gray-600 rounded-2xl p-5'>
                     <div className='flex flex-col'>
                         <div className=' text-white text-left text-[25px] font-bold'>
                             <span>Customizable user profiles</span>
@@ -86,7 +86,7 @@ export const FeaturesView = () => {
                         </div>
                     </div>
                 </div>
-                <div className='relative hover:scale-105 transition-all border-2 bg-gradient-to-b from-[#1A2025] to-black text-left border-gray-600 rounded-2xl p-5'>
+                <div className='relative hover:scale-105 min-h-[340px] transition-all border-2 bg-gradient-to-b from-[#1A2025] to-black text-left border-gray-600 rounded-2xl p-5'>
                     <div className='text-white text-[20px] font-bold'>
                         <span>Content Discovery
                             Algorithms</span>
@@ -94,11 +94,11 @@ export const FeaturesView = () => {
                     <div className='text-white pt-3'>
                         <span>AI-driven content suggestions tailored to user preferences without compromising data privacy.</span>
                     </div>
-                    <div className='absolute bottom-0 right-0'>
-                        <img src={music} alt='' />
+                    <div className='absolute bottom-0 right-0 max-w-[100%]'>
+                        <img className='max-w-[100%]' src={music} alt='' />
                     </div>
                 </div>
-                <div className='border-2 relative hover:scale-105 transition-all bg-gradient-to-b from-[#1A2025] to-black text-left border-gray-600 rounded-2xl p-5'>
+                <div className='border-2 relative hover:scale-105 min-h-[360px] transition-all bg-gradient-to-b from-[#1A2025] to-black text-left border-gray-600 rounded-2xl p-5'>
                     <div className='text-white text-[20px] font-bold'>
                         <span>Decentralized
                             Database</span>
@@ -110,7 +110,7 @@ export const FeaturesView = () => {
                         <img src={decentralized} alt='' />
                     </div>
                 </div>
-                <div className='border-2 hover:scale-105 transition-all bg-gradient-to-b from-[#1A2025] to-black relative text-white text-left border-gray-600 rounded-2xl p-5'>
+                <div className='border-2 hover:scale-105 min-h-[320px] transition-all bg-gradient-to-b from-[#1A2025] to-black relative text-white text-left border-gray-600 rounded-2xl p-5'>
                     <div className='text-white text-[20px] font-bold'>
                         <span>APIs and SDKs</span>
                     </div>
@@ -121,16 +121,16 @@ export const FeaturesView = () => {
                         <img src={apis} alt='' />
                     </div>
                 </div>
-                <div className='border-2 hover:scale-105 transition-all grid bg-gradient-to-b from-[#1A2025] to-black text-white text-left border-gray-600 rounded-2xl p-5'>
+                <div className='border-2 hover:scale-105 min-h-[340px] transition-all grid bg-gradient-to-b from-[#1A2025] to-black text-white text-left border-gray-600 rounded-2xl p-5'>
                     <div className='text-[20px] h-0 font-bold'>
                         <span>Interoperability</span>
                     </div>
-                    <div>
+                    <div className='pt-5 md:pt-0'>
                         <span>Designed to communicate seamlessly with other blockchain projects, further expanding
                             its ecosystem.</span>
                     </div>
-                    <div className=''>
-                        <img src={intero} alt='' />
+                    <div className='max-w-[100%]'>
+                        <img className='max-w-[100%]' src={intero} alt='' />
                     </div>
                 </div>
             </div>
