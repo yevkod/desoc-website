@@ -10,15 +10,15 @@ export const FooterView = () => {
                         Revolutionize the digital social landscape.
                     </div>
                     <div className='flex relative pt-36'>
-                        <input placeholder='Enter your email' className='bg-gray-500 rounded-full text-white outline-none py-5 px-8 w-4/5' />
+                        <input placeholder='Enter your email' className='bg-gray-500 rounded-full text-white outline-none py-5 px-8 w-4/5 placeholder:text-white' />
                         <div className='absolute right-0 hover:scale-105 transition-all'>
-                            <button className='bg-white rounded-full py-5 px-9'>
+                            <button className='bg-white rounded-full py-5 px-9 font-semibold'>
                                 <span>Join Newsletter</span>
                             </button>
                         </div>
                     </div>
                 </div>
-                <div className='bg-gray-700 hover:scale-105 transition-all col-span-1 flex flex-col rounded-xl p-7 text-left text-white'>
+                <div className='bg-gray-700 hover:scale-105 transition-all  flex flex-col rounded-xl p-7 text-left text-white'>
                     <div className='text-white [font-size:_clamp(2em,4vw,40px)] font-semibold leading-[55px]'>
                         Support
                     </div>
@@ -37,7 +37,7 @@ export const FooterView = () => {
                     <div className='gap-5'>
                         {footerArray.map((item) => (
                             <div className='flex flex-col w-10 pt-3 first:pt-5 mx-auto'>
-                                <img src={item.icon} alt='' />
+                                <img className='cursor-pointer hover:scale-x-110 transition-all' src={item.icon} alt='' />
                             </div>
                         ))}
                     </div>

@@ -14,9 +14,9 @@ export const MainView = () => {
 
     return (
         <div className='bg-black relative z-20 flex pt-[90px] main-shadow items-center justify-center pb-[90px]'>
-            <div className='flex flex-col items-center'>
-                <div className='flex w-36 justify-center'>
-                    <CircularProgressbar value={percentage} className='flex font-bold flex-wrap' text='$2,521,597.21' styles={buildStyles({
+            <div className='flex flex-col items-center z-50'>
+                <div className='flex w-36 justify-center z-50'>
+                    <CircularProgressbar value={percentage} className='flex font-bold flex-wrap z-50' text='$2,521,597.21' styles={buildStyles({
                         textSize: '10px',
                         textColor: 'white'
                     })} />

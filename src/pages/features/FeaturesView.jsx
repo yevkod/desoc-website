@@ -7,12 +7,19 @@ import music from '../../assets/imgs/features-music.png';
 import decentralized from '../../assets/imgs/decentralized.png';
 import apis from '../../assets/imgs/apis.png';
 import intero from '../../assets/imgs/intero.png';
+import { Button } from '../../components/Button/Button';
 
 export const FeaturesView = () => {
     return (
-        <div className='bg-black pt-[90px] pb-[90px] p-5'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-5 mx-auto max-w-[70rem]'>
-                <div className='flex border-2 hover:scale-105 transition-all bg-gradient-to-b from-[#1A2025] to-black col-span-2 justify-between border-gray-600 rounded-2xl p-5'>
+        <div className='bg-black pt-[90px] pb-[90px] p-5 relative features-shadow z-50'>
+            <div className='flex flex-col justify-center '>
+                <div className='[font-size:_clamp(2em,4vw,50px)] font-bold text-white'>Unlock cool features</div>
+                <div className='flex justify-center pt-8'>
+                    <Button text='Buy Desoc' />
+                </div>
+            </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 pt-12 gap-5 z-50 mx-auto max-w-[70rem]'>
+                <div className='flex border-2 hover:scale-105 transition-all bg-gradient-to-b from-[#1A2025] z-50 to-black col-span-2 justify-between border-gray-600 rounded-2xl p-5'>
                     <div className='flex flex-col'>
                         <div className=' text-white text-left text-[25px] font-bold'>
                             <span>Customizable user profiles</span>

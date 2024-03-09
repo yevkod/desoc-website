@@ -16,10 +16,10 @@ export const Buy = () => {
             </div>
             <div className='flex gap-3 pt-5'>
                 <div>
-                    <input className='border-2 border-gray-100 p-3 bg-transparent rounded-lg outline-none text-white' placeholder='0.00 Tether' />
+                    <input className='border-2 border-gray-100 p-3 bg-transparent placeholder:text-white rounded-lg outline-none text-white' placeholder='0.00 Tether' />
                 </div>
                 <div>
-                    <input className='border-2 border-gray-100 p-3 bg-transparent rounded-lg outline-none text-white' placeholder='0.00 Desoc' />
+                    <input className='border-2 border-gray-100 p-3 bg-transparent rounded-lg outline-none placeholder:text-white text-white' placeholder='0.00 Desoc' />
                 </div>
             </div>
             <div className=''>

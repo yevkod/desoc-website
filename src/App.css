@@ -43,7 +43,7 @@
   position: absolute;
   top: 50%;
   right: 50%;
-  box-shadow: 0 0 350px 200px #5891FF;
+  box-shadow: 0 0 550px 240px #5891FF;
   z-index: -1;
 }
 
@@ -90,8 +90,18 @@
 .revenue-shadow::after {
   content: '';
   position: absolute;
-  top: 10%;
+  top: 40%;
   right: 50%;
+  box-shadow: 0 0 350px 200px #5891FF;
+  z-index: 1;
+}
+
+
+.features-shadow::after {
+  content: '';
+  position: absolute;
+  top: 30%;
+  left: 20%;
   box-shadow: 0 0 350px 200px #5891FF;
   z-index: -1;
 }
