@@ -100,8 +100,8 @@
 .features-shadow::after {
   content: '';
   position: absolute;
-  top: 30%;
-  left: 20%;
+  top: 10%;
+  left: -20%;
   box-shadow: 0 0 350px 200px #5891FF;
   z-index: -1;
 }

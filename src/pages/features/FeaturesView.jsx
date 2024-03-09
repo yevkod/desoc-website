@@ -11,14 +11,14 @@ import { Button } from '../../components/Button/Button';
 
 export const FeaturesView = () => {
     return (
-        <div className='bg-black pt-[40px] lg:pb-[90px] p-5 relative features-shadow z-50'>
-            <div className='flex flex-col justify-center '>
+        <div className='bg-black pt-[40px] lg:pb-[90px] relative p-5 z-50'>
+            <div className='flex flex-col justify-center'>
                 <div className='[font-size:_clamp(2em,4vw,50px)] font-bold text-white'>Unlock cool features</div>
                 <div className='flex justify-center pt-8'>
                     <Button text='Buy Desoc' />
                 </div>
             </div>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-1 md:grid-rows-2 pt-12 gap-5 z-50 mx-auto max-w-[70rem]'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3  grid-rows-1 md:grid-rows-2 pt-12 gap-5 z-50 mx-auto  max-w-[70rem]'>
                 <div className='flex flex-col md:flex-row border-2 hover:scale-105 transition-all bg-gradient-to-b from-[#1A2025] z-50 to-black md:col-span-2 justify-between border-gray-600 rounded-2xl p-5'>
                     <div className='flex flex-col'>
                         <div className=' text-white text-left text-[25px] font-bold'>
@@ -28,7 +28,7 @@ export const FeaturesView = () => {
                             <span>Customizable profiles with integrated wallets to view and manage TC holdings. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</span>
                         </div>
                     </div>
-                    <div className='flex relative mt-10 lg:mt-28 text-left max-w-[350px] gap-5 border-2 border-gray-600 rounded-2xl p-5'>
+                    <div className='flex relative mt-10 lg:mt-28 text-left features-shadow max-w-[350px] gap-5 border-2 border-gray-600 rounded-2xl p-5'>
                         <div className='flex flex-col w-full'>
                             <div className='flex flex-col mx-auto sm:flex-row gap-3 sm:gap-12'>
                                 <div className='max-w-[100%] mx-auto sm:mx-0'>
