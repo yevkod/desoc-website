@@ -34,10 +34,10 @@ export const FooterView = () => {
                     <div className='text-white'>
                         Socials
                     </div>
-                    <div className='gap-5'>
+                    <div className='gap-5 flex flex-row md:flex-col'>
                         {footerArray.map((item) => (
-                            <div className='flex flex-col w-10 pt-3 first:pt-5 mx-auto'>
-                                <img className='cursor-pointer hover:scale-x-110 transition-all' src={item.icon} alt='' />
+                            <div className='flex w-10 pt-3 lg:first:pt-5 mx-auto'>
+                                <img className='flex cursor-pointer hover:scale-x-110 transition-all' src={item.icon} alt='' />
                             </div>
                         ))}
                     </div>

@@ -19,7 +19,7 @@ export const StageView = () => {
                     >
                         {stageData.map(({ sectionName, accordions }, i) => (
                             <section className="pt-8 first:pt-0" key={`roadmap-${i}`}>
-                                <div className="flex justify-center items-center w-max mb-4 px-4 py-2 border border-white border-opacity-50 rounded-full bg-white bg-opacity-10 font-medium text-sm leading-none tracking-[0.28px]">
+                                <div className="flex justify-center items-center w-max mb-4 px-4 py-2 border border-white border-opacity-50 rounded-full bg-white bg-opacity-10 font-medium text-sm leading-none tracking-[0.28px] max-w-[100%]">
                                     {sectionName}
                                 </div>
                                 <div className="flex flex-col gap-6 text-left">
