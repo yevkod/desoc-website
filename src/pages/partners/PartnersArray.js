@@ -15,7 +15,7 @@ export const partnersArray = [
         icon: partner_3
     },
     {
-        icon: partner_4
+        icon: partner_2
     },
     {
         icon: partner_5
